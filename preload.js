@@ -9,4 +9,8 @@ window.addEventListener('DOMContentLoaded', () => {
   for (const type of ['chrome', 'node', 'electron']) {
     replaceText(`${type}-version`, process.versions[type])
   }
+
+  
+  replaceText('gpm-version', 'v1.0.0')
+  replaceText('login-name', 'PRASEOD-')
 })

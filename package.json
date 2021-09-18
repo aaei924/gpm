@@ -1,22 +1,25 @@
 {
-  "name": "electron-quick-start",
+  "name": "gpm",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "GPM - Game Package Manager",
   "main": "main.js",
+  "homepage": "./",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "productName": "gpm",
+    "appId": "gpm"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
+    "gpm"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^14.0.1"
+    "electron": "^14.0.1",
+    "electron-builder": "^22.11.7"
   }
 }
